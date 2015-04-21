@@ -14,7 +14,7 @@ $(document).ready(function() {
 		
 			$.ajax({
 				type: "GET",
-				url: "https://maps.googleapis.com/maps/api/geocode/xml?address="+encodeURIComponent($('#address').val())+"&sensor=false&key=AIzaSyBsWAIQEiI-3xZSyj7ralL_6u0GIrQbVNo", 					
+				url: "https://maps.googleapis.com/maps/api/geocode/xml?address="+encodeURIComponent($('#address').val())+"&sensor=false&key=APIkey", 					
 				dataType: "xml",
 				success: processXML,
 				error: error
